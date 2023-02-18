@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #111111;
+    color:#FFFFFF;
+}
+
+
+.box{
+    position: absolute;
+    top: 33px ;
+    left: 42px ;
+    width: 1450px;
+    height:90px;
+    border: 4px solid #808080;
+    border-radius: 20px;
+    /* box-sizing: border-box; */
+} 
+
+.box1{
+    position: absolute;
+    top: 28px ;
+    left: 50px ;
+    font-weight: 200; 
+    font-size: 24px;
+    /* line-height: 29px; */
+}
+
+/* *********************************** */
+
+.container{
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    height:800px;
+    width: 1450px;
+    /* border: red 2px solid; */
+    position:absolute;
+    top:165px;
+    left:41px;
+    gap:20px
+
+
+}
+
+.Lcontainer{
+    /* border: yellow 2px solid; */
+    display:grid;
+    grid-template-columns: auto;
+    gap:20px;
+}
+
+.m1, .m2, .m3{
+    border: #808080 4px solid;
+    border-radius: 10px;
+}
+.m1{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap:15px
+}
+
+.img{
+    height: 140px;
+    width: 140px;
+    border-radius: 90px;
+}
+span{
+font-family: 'Inter'; 
+font-weight: 200;
+font-size: 24px;
+line-height: 29px;
+text-transform: uppercase;
+}
+/* *********************************************** */
+
+.m2{
+ position: relative;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+line-height: 29px;
+text-transform: uppercase;
+}
+ul{
+   position:relative; 
+   top:60px;
+   right: 10px;   
+}
+
+.m3{
+    position: relative;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight:200 ;
+   line-height: 29px;
+   text-transform: uppercase;
+   }
+
+   .icon{
+    position:relative; 
+    top:50px;
+    left: 30px;   
+ }
+ a{
+    color:#FFFFFF;
+    text-decoration: none; 
+ }
+
+ /*********************************/
+
+.Rcontainer{
+    border:#808080 4px solid;
+    border-radius: 20px;
+}
+
+.table-heading{
+position: relative;
+top:20px;
+left:30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 58px;
+text-transform: capitalize;
+}
+
+table{
+    
+    border: 4px solid #808080;
+    border-radius: 10px;
+    margin: 40px;
+    height: 800px;
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+td ,th{
+    border: 2px solid #808080;
+}
+th{
+    padding: 10px;
+}
+tr{
+    text-align: center;
+}
+
+
+input{
+    height: 0px;
+    width: 0px;
+}
+
+label{
+    display: inline-block;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #808080;
+
+}
+input:checked + label{
+    background-color: yellowgreen;
+}
+/* ************************************************** */
+@media screen and (max-width: 640px) {
+ *{
+    font-size: 12px;
+ }
+
+ 
+ .container{
+    display: flex;
+    flex-flow: column wrap;
+    height:auto;
+    width: 100vw;
+    position:absolute;
+    top:165px;
+    left:41px;
+    gap:20px
+}
+
+.box{
+    font-size: 12px;
+    width: 100vw; 
+}
+
+.Lcontainer{
+    font-size: 12px;
+    width: 100vw; 
+}
+ul{ 
+    top:6px;
+    left: 10px;   
+ }
+
+ .icon{ 
+    top:6px;
+    left: 30px;   
+ }
+ label{
+    
+    width: 7px;
+    height: 7px;
+ } 
+
+.Rcontainer{
+    font-size: 12px;
+    width: 100vw; 
+}
+table{
+    
+    border: 4px solid #808080;
+    border-radius: 10px;
+    margin: 20px;
+    height: 100%;
+    width: 93%;
+   
+}
+/* .B1{
+    position:relative;
+    left: -110px;
+}
+.B{
+    position: relative;
+    left:-70px;
+} */
+
+
+}
+
+
